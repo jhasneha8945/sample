@@ -1,47 +1,33 @@
-Chemical Equipment Parameter Visualizer
-The aim of this project is to build a hybrid application that runs both as a Web Application and a Desktop Application. The project focuses on data visualization and analytics for chemical equipment.
-Hybrid Web + Desktop app for chemical equipment CSV data analysis and visualization.
-Tech Stack
-Backend: Django REST API + Pandas + SQLite
-Web Frontend: React + Chart.js  
-Desktop Frontend: PyQt5 + Matplotlib
-Quick Start
- 1. Backend (Django API)
-bash
-cd backend
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
+Chemical Equipment Parameter Visualizer 
 
-3. Web Frontend (React)
-bash
-cd web-frontend
-npm install
-npm start
+The aim of this project is to build a hybrid application that runs both as a Web application and a Desktop Application. The project focuses on data visualization and analytics for chemical equipment. It transforms chemical plant CSV data into professional PDF reports with automated equipment classification and interactive visualizations.
 
-5. Desktop Frontend (PyQt5)
-bash
-cd desktop-frontend
-pip install -r requirements.txt
-python main.py
+Features:
+•	React Web Frontend: Modern gradient UI, token auth, PDF Download
+•	PyQt5 Desktop App: Native Windows App, PDF export to folder
+•	Django REST Backend: Token authentication, CSV processing, upload history 
+•	Professional PDF Reports: Summary stats +bar charts +raw JSON data 
+•	Equipment Classification: Auto detects, pumps, valves, reactors, tanks, pipes
+•	Production ready: UI/UX
 
-Project Structure
-text
-backend       # Django API
-web-frontend    # React + Chart.js
-desktop-frontend    # PyQt5 + Matplotlib
-sampleequipmentdata.csv  # Test data
- 
-README.md
-Features
-CSV Upload
-Charts + Stats
-History 
-PDF Reports
+Security Features
+•	Token authentication
+•	Password masking
+•	File Validation
+•	CORS protection
+•	Local Storage
 
-Test Data
-Use sampleequipmentdata.csv
+Responsive Design
+•	Web: Mobile first, responsive charts, touch friendly
+•	Desktop: Native Windows 10/11 look and feel
+•	PDF: Print optimized A4 landscape/portrait
 
-Demo
-Record 2-3 min video of app working → upload as demo.mp4
+Acknowledgements
+•	Django REST framework: Robust API Foundation
+•	React 18 : Modern frontend framework
+•	Chart.js: Beautiful responsive charts
+•	JsPDF: Client side PDF generation
+•	PyQt5: Native Desktop Experience
+•	Matplotlib: Scientific plotting library
+•	Pandas: CSV data processing
 
